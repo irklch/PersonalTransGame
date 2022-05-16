@@ -15,7 +15,17 @@
 		A92795202808AEEC00CC5CB0 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A927951B2808AEEC00CC5CB0 /* SettingsVC.swift */; };
 		A92795212808AEEC00CC5CB0 /* TranslateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A927951D2808AEEC00CC5CB0 /* TranslateViewModel.swift */; };
 		A92795222808AEEC00CC5CB0 /* TranslateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A927951E2808AEEC00CC5CB0 /* TranslateVC.swift */; };
-		A92795242808AEF500CC5CB0 /* TapBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92795232808AEF500CC5CB0 /* TapBarVC.swift */; };
+		A92795242808AEF500CC5CB0 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92795232808AEF500CC5CB0 /* TabBarVC.swift */; };
+		A93B01192832BDD30023787A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A93B01182832BDD30023787A /* SnapKit */; };
+		A93B011B2832C0F80023787A /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B011A2832C0F80023787A /* Languages.swift */; };
+		A93B011E2832C2BD0023787A /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B011D2832C2BD0023787A /* Title.swift */; };
+		A93B01212832CCD50023787A /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = A93B01202832CCD50023787A /* Realm */; };
+		A93B01232832CCD50023787A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A93B01222832CCD50023787A /* RealmSwift */; };
+		A93B01252832CD1D0023787A /* DictionaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B01242832CD1D0023787A /* DictionaryModel.swift */; };
+		A93B01292832D43F0023787A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B01282832D43F0023787A /* StringExtension.swift */; };
+		A93B012B2832D7290023787A /* DictionaryCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B012A2832D7290023787A /* DictionaryCollectionVC.swift */; };
+		A93B012E2832D9D80023787A /* DictionaryCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B012D2832D9D80023787A /* DictionaryCollectionViewModel.swift */; };
+		A93B01302832DB820023787A /* DictionaryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B012F2832DB820023787A /* DictionaryCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +39,14 @@
 		A927951B2808AEEC00CC5CB0 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		A927951D2808AEEC00CC5CB0 /* TranslateViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslateViewModel.swift; sourceTree = "<group>"; };
 		A927951E2808AEEC00CC5CB0 /* TranslateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslateVC.swift; sourceTree = "<group>"; };
-		A92795232808AEF500CC5CB0 /* TapBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapBarVC.swift; sourceTree = "<group>"; };
+		A92795232808AEF500CC5CB0 /* TabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		A93B011A2832C0F80023787A /* Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
+		A93B011D2832C2BD0023787A /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		A93B01242832CD1D0023787A /* DictionaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryModel.swift; sourceTree = "<group>"; };
+		A93B01282832D43F0023787A /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		A93B012A2832D7290023787A /* DictionaryCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryCollectionVC.swift; sourceTree = "<group>"; };
+		A93B012D2832D9D80023787A /* DictionaryCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryCollectionViewModel.swift; sourceTree = "<group>"; };
+		A93B012F2832DB820023787A /* DictionaryCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93B01232832CCD50023787A /* RealmSwift in Frameworks */,
+				A93B01212832CCD50023787A /* Realm in Frameworks */,
+				A93B01192832BDD30023787A /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,10 +82,12 @@
 		A92795032808AD4900CC5CB0 /* PeronalTransGame */ = {
 			isa = PBXGroup;
 			children = (
-				A92795232808AEF500CC5CB0 /* TapBarVC.swift */,
+				A93B01272832CDAB0023787A /* TabBarVC */,
+				A927951C2808AEEC00CC5CB0 /* TranslateVC */,
 				A92795182808AEEC00CC5CB0 /* GameVC */,
 				A927951A2808AEEC00CC5CB0 /* SettingsVC */,
-				A927951C2808AEEC00CC5CB0 /* TranslateVC */,
+				A93B01262832CD900023787A /* Models */,
+				A93B011C2832C0FF0023787A /* Extensions */,
 				A92795252808B00000CC5CB0 /* Supporting Files */,
 			);
 			path = PeronalTransGame;
@@ -83,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				A927951B2808AEEC00CC5CB0 /* SettingsVC.swift */,
+				A93B012C2832D7340023787A /* DictionaryVC */,
 			);
 			path = SettingsVC;
 			sourceTree = "<group>";
@@ -108,6 +131,50 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A93B011C2832C0FF0023787A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A93B011A2832C0F80023787A /* Languages.swift */,
+				A93B011D2832C2BD0023787A /* Title.swift */,
+				A93B01282832D43F0023787A /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A93B01262832CD900023787A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A93B01242832CD1D0023787A /* DictionaryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A93B01272832CDAB0023787A /* TabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				A92795232808AEF500CC5CB0 /* TabBarVC.swift */,
+			);
+			path = TabBarVC;
+			sourceTree = "<group>";
+		};
+		A93B012C2832D7340023787A /* DictionaryVC */ = {
+			isa = PBXGroup;
+			children = (
+				A93B012A2832D7290023787A /* DictionaryCollectionVC.swift */,
+				A93B012D2832D9D80023787A /* DictionaryCollectionViewModel.swift */,
+				A93B01312832DB870023787A /* Cells */,
+			);
+			path = DictionaryVC;
+			sourceTree = "<group>";
+		};
+		A93B01312832DB870023787A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A93B012F2832DB820023787A /* DictionaryCollectionCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -124,6 +191,11 @@
 			dependencies = (
 			);
 			name = PeronalTransGame;
+			packageProductDependencies = (
+				A93B01182832BDD30023787A /* SnapKit */,
+				A93B01202832CCD50023787A /* Realm */,
+				A93B01222832CCD50023787A /* RealmSwift */,
+			);
 			productName = PeronalTranslGame;
 			productReference = A92795012808AD4900CC5CB0 /* PeronalTransGame.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +224,10 @@
 				Base,
 			);
 			mainGroup = A92794F82808AD4900CC5CB0;
+			packageReferences = (
+				A93B01172832BDD30023787A /* XCRemoteSwiftPackageReference "SnapKit" */,
+				A93B011F2832CCD50023787A /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = A92795022808AD4900CC5CB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -178,13 +254,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93B012E2832D9D80023787A /* DictionaryCollectionViewModel.swift in Sources */,
 				A92795052808AD4900CC5CB0 /* AppDelegate.swift in Sources */,
+				A93B011E2832C2BD0023787A /* Title.swift in Sources */,
+				A93B01302832DB820023787A /* DictionaryCollectionCell.swift in Sources */,
 				A927951F2808AEEC00CC5CB0 /* GameVC.swift in Sources */,
 				A92795212808AEEC00CC5CB0 /* TranslateViewModel.swift in Sources */,
-				A92795242808AEF500CC5CB0 /* TapBarVC.swift in Sources */,
+				A93B012B2832D7290023787A /* DictionaryCollectionVC.swift in Sources */,
+				A92795242808AEF500CC5CB0 /* TabBarVC.swift in Sources */,
+				A93B011B2832C0F80023787A /* Languages.swift in Sources */,
 				A92795072808AD4900CC5CB0 /* SceneDelegate.swift in Sources */,
 				A92795222808AEEC00CC5CB0 /* TranslateVC.swift in Sources */,
 				A92795202808AEEC00CC5CB0 /* SettingsVC.swift in Sources */,
+				A93B01292832D43F0023787A /* StringExtension.swift in Sources */,
+				A93B01252832CD1D0023787A /* DictionaryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +477,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A93B01172832BDD30023787A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		A93B011F2832CCD50023787A /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A93B01182832BDD30023787A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A93B01172832BDD30023787A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		A93B01202832CCD50023787A /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A93B011F2832CCD50023787A /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		A93B01222832CCD50023787A /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A93B011F2832CCD50023787A /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A92794F92808AD4900CC5CB0 /* Project object */;
 }

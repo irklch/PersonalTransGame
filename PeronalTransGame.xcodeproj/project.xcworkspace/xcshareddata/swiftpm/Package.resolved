@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "extensions",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/svyat96/Extensions",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5aaa7ad057f282fcb30bf40f8f4fc37f04a7cf15"
+      }
+    },
+    {
+      "identity" : "realm-cocoa",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-cocoa.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "3b08bf7dc314d6e5a247202b582e007548f5bdf5"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core",
+      "state" : {
+        "revision" : "472d325a2e844fcb48c400db74e6b9646f92ca93",
+        "version" : "11.15.0"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "f222cbdf325885926566172f6f5f06af95473158",
+        "version" : "5.6.0"
+      }
+    }
+  ],
+  "version" : 2
+}
